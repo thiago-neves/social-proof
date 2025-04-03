@@ -28,8 +28,6 @@ Users should be able to:
 - Solution URL: [Click here](https://github.com/thiago-neves/social-proof)
 - Live Site URL: [Click here](https://thiago-neves.github.io/social-proof/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
