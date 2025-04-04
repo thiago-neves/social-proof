@@ -2,19 +2,17 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 2. Remove default margin */
 * {
-  margin: 0;
+	margin: 0;
 }
 
 body {
-  /* 3. Add accessible line-height */
-  line-height: 1.5;
-  /* 4. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
+	/* 3. Add accessible line-height */
+	line-height: 1.5;
 }
 
 /* 5. Improve media defaults */
@@ -23,8 +21,8 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
-  max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 /* 6. Inherit fonts for form controls */
@@ -38,7 +36,7 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
+	font: inherit;
 }
 
 /*
@@ -46,17 +44,17 @@ select {
 */
 #root,
 #__next {
-  isolation: isolate;
+	isolation: isolate;
 }
 
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
 }
